@@ -35,13 +35,90 @@
             </div>
         </div>
     </nav>
-    <div class="header"></div>
-    <div class="main">
-        <div class="about-me"></div>
-        <div class="Portfolio-cards"></div>
-        <div class="contact-form"></div>
-    </div>
-    <div class="footer"></div>
+    <header class="bg-primary py-5 text-white text-center">
+        <div class="container">
+            <h1 class="display-3">Welcome to My Portfolio</h1>
+            <p class="fs-3 lead">I am FrontEnd Developer</p>
+        </div>
+    </header>
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">About me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                <img class="img-fluid" src="https://plus.unsplash.com/premium_photo-1661609251135-e5a4fe5b71c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Portfolio Person" ></div>
+                <div class="col-md-6 my-auto">
+                    <p class="fs-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet libero doloremque earum quas fuga tempore dicta sunt eum ullam assumenda, magnam ipsum molestiae a unde. Laudantium nemo aliquam at pariatur eligendi iste voluptates reprehenderit error tempore nobis non corrupti exercitationem, molestiae praesentium. Consectetur quis et temporibus, quo dolorum natus illum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Portfolio" class="py-5 bg-light">
+        <div class="Portfolio-cards">
+            <h2 class="text-center mb-4">Portfolio</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1631603090989-93f9ef6f9d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80" alt="Project-1">
+                            <div class="card-body mx-auto justify-content-center d-flex flex-column text-center">
+                                <div class="card-title">Crypto Tracker Project</div>
+                                <div class="card-text">It's a front end project made related to cryptocurrency and it's data</div>
+                                <button class="btn btn-primary mt-4 mx-auto d-flex">Learn More</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4"><div class="card">
+                        <img src="https://images.unsplash.com/photo-1605792657660-596af9009e82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1102&q=80" alt="Project-1">
+                        <div class="card-body mx-auto justify-content-center d-flex flex-column text-center">
+                            <div class="card-title">Crypto Tracker Project</div>
+                            <div class="card-text">It's a front end project made related to cryptocurrency and it's data</div>
+                            <button class="btn btn-primary mt-4 mx-auto justify-content-center d-flex">Learn More</button>
+                        </div>
+                    
+                    </div></div>
+                    <div class="col-md-4"><div class="card">
+                        <img src="https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project-1">
+                        <div class="card-body mx-auto justify-content-center d-flex flex-column text-center">
+                            <div class="card-title">Crypto Tracker Project</div>
+                            <div class="card-text">It's a front end project made related to cryptocurrency and it's data</div>
+                            <button class="btn btn-primary mt-4 mx-auto justify-content-center d-flex">Learn More</button>
+                        </div>
+                    
+                    </div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea rows="5" class="form-control" id="message" required></textarea></textarea>
+                        </div>
+                        <button class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-dark pt-4 pb-4 text-white text-center">
+        <div class="container"></div>
+        <p>&copy; 2023 My Portfolio. All rights reserved</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
